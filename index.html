@@ -6,5 +6,17 @@
 </head>
 <body>
   <h1>Em construção</h1>
+  <div id="div1"></div>
 </body>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+
+   $.ajax({
+      url: "README.md",
+      success: function(result){
+        $("#div1").html(result);
+      }
+  });
+
+</script>
 </html>
