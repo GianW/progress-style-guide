@@ -34,8 +34,8 @@
   ```ABL
 //Ruim
 def temp-table teste
-  field id as intno-undo
-  field nome as char.
+   field id as int
+    field nome as char.
 
 //Bom
 def temp-table tt-teste no-undo
